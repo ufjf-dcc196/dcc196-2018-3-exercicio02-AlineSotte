@@ -17,7 +17,7 @@ public class CadastroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
 
-        cadastrook=(Button)findViewById(R.id.btncadastro);
+        cadastrook=(Button)findViewById(R.id.btnconfirmar);
 
         cadastrook.setOnClickListener(new View.OnClickListener() {
             @Override
