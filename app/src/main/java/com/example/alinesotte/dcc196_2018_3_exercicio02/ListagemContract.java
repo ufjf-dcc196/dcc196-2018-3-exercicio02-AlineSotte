@@ -2,7 +2,7 @@ package com.example.alinesotte.dcc196_2018_3_exercicio02;
 
 import android.provider.BaseColumns;
 
-public final class ListagemC {
+public final class ListagemContract {
 
     public final class Lista implements BaseColumns {
         public final static String TABLE_NAME = "Serie";

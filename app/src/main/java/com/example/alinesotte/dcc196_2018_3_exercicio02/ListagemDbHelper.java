@@ -14,12 +14,12 @@ public class ListagemDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(ListagemC.Lista.CREATE_SERIE);
+        db.execSQL(ListagemContract.Lista.CREATE_SERIE);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(ListagemC.Lista.DROP_SERIE);
+        db.execSQL(ListagemContract.Lista.DROP_SERIE);
         onCreate(db);
     }
 
